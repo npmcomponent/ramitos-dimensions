@@ -1,14 +1,28 @@
 {
-  "name": "dimensions",
-  "version": "0.0.1",
-  "main": "test/server.js",
-  "scripts": {
-    "install": "component install -vd; component build -vd",
-    "clean": "rm -rf build components node_modules",
-    "test": "node ./"
+  "name": "ramitos-dimensions",
+  "description": "jQuery based dimensions getters and setters (`innerHeight`, `innerWidth`, `height`, `width`, `outerHeight` and `outerWidth`)",
+  "version": "0.3.0",
+  "keywords": [
+    "innerHeight",
+    "innerWidth",
+    "height",
+    "width",
+    "outerHeight",
+    "outerWidth",
+    "dimensions"
+  ],
+  "main": "src/dimensions.js",
+  "dependencies": {
+    "twolfson-computedStyle": "git://github.com/npmcomponent/twolfson-computedStyle.git",
+    "component-css": "git://github.com/npmcomponent/component-css.git",
+    "ramitos-isWindow": "git://github.com/npmcomponent/ramitos-isWindow.git",
+    "ramitos-isDocument": "git://github.com/npmcomponent/ramitos-isDocument.git",
+    "ramitos-isElement": "git://github.com/npmcomponent/ramitos-isElement.git",
+    "component-type": "git://github.com/npmcomponent/component-type.git",
+    "ramitos-interpolate": "git://github.com/npmcomponent/ramitos-interpolate.git",
+    "yields-capitalize": "git://github.com/npmcomponent/yields-capitalize.git",
+    "ramitos-from_px": "git://github.com/npmcomponent/ramitos-from_px.git",
+    "ramitos-to_px": "git://github.com/npmcomponent/ramitos-to_px.git"
   },
-  "devDependencies": {
-    "component": "0.18.x",
-    "express": "3.4.x"
-  }
+  "license": "MIT"
 }

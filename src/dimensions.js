@@ -1,13 +1,13 @@
-var interpolate = require('interpolate'),
-    capitalize = require('capitalize'),
-    isWindow = require('isWindow'),
-    isDocument = require('isDocument'),
-    isElement = require('isElement'),
-    style = require('computedStyle'),
-    from_px = require('from_px'),
-    to_px = require('to_px'),
-    type = require('type'),
-    css = require('css')
+var interpolate = require('ramitos-interpolate'),
+    capitalize = require('yields-capitalize'),
+    isWindow = require('ramitos-isWindow'),
+    isDocument = require('ramitos-isDocument'),
+    isElement = require('ramitos-isElement'),
+    style = require('twolfson-computedStyle'),
+    from_px = require('ramitos-from_px'),
+    to_px = require('ramitos-to_px'),
+    type = require('component-type'),
+    css = require('component-css')
 
 
 var from_window = function (el, name) {
